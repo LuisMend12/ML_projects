@@ -58,6 +58,7 @@ def neural_network(inputs, weights):
     wT = np.transpose(weights)
     prod = np.matmul(wT, inputs)
     out = np.tanh(prod)
+    return (out)
 
 def scalar_function(x, y):
     """
